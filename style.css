@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:blanchedalmond;
+    width: 100%;
+    position: sticky;
+    padding: 40px;
+}
+
+
+
+
+   .navbar a{
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+    font-size: 25px;
+    font-weight: bold;
+   }
+
+   .navbar a:hover{
+      color: red;
+      font-size: 35;
+      border: 2px solid red;
+      border-radius: 10px;
+   }
+
+
+   .image {
+    padding: 300px;
+    background: url(assets/hero.jpg);
+    
+}
+    h1{
+    font-size: 125px;
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+
+  
+   }
+
+   h1:hover{
+    color: aquamarine;
+    font-size:150px ;
+   }
+
+   .no-border-btn{
+    font-size: 30px;
+    background-color: grey;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+     color: white;
+     margin-top: 50px;
+     margin-left: 40px;
+     padding: 20px 30px;
+    text-transform: capitalize;
+   }
+
+   
+   .no-border-btn:hover{
+    color: antiquewhite;
+    background-color: cadetblue;
+   }
+   .btn:hover{
+    color: antiquewhite;
+    background-color: cadetblue;
+   }
+
+  .btn{
+    font-size: 30px;
+    text-align: center;
+    border: 3px solid wheat;
+    border-radius: 10px;
+     color: black;
+     margin-top: 50px;
+     margin-left: 450px;
+    padding: 20px 30px;
+    background-color: gray;
+    text-transform: capitalize;
+
+  
+   }
